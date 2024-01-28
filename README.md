@@ -5,6 +5,6 @@
 # How to run the script
 - A compiled version is available for download here: https://github.com/Imnotndesh/rickRollPy/releases
 - Just extract the zip and run the 'main' file
-- You can also run the script directly by going to the terminal and typing
+- You can also run the script directly by cloning the repository then executing the main.py file from terminal as shown below.
   ###### python3 -m main.py
 - ps: You need to have the firefox driver installed in the computer.
