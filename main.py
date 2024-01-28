@@ -14,7 +14,7 @@ def timer():
 
 driver = webdriver.Firefox()
 driver.get("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-fullscreen = driver.find_element(By.CLASS_NAME, "ytp-fullscreen-button.ytp-button")
-fullscreen.send_keys(Keys.RETURN)
+fullButton = driver.find_element(By.CLASS_NAME, "ytp-fullscreen-button.ytp-button")
+fullButton.send_keys(Keys.RETURN)
 timer()
 driver.close()
